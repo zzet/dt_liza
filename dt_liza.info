@@ -1,10 +1,11 @@
-name = Seven
-description = A simple one-column, tableless, fluid width administration theme.
+name = Liza Drupal Template
+description = A simple one-column, tableless, fluid width content theme.
 package = Core
 version = VERSION
 core = 7.x
-stylesheets[screen][] = reset.css
-stylesheets[screen][] = style.css
+stylesheets[screen][] = css/reset.css
+stylesheets[screen][] = css/style.css
+
 settings[shortcut_module_link] = 1
 regions[content] = Content
 regions[help] = Help
