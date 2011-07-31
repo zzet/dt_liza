@@ -1,21 +1,21 @@
-<? global $language; ?>
-<div id="second-main">
+<div id="main">
   <div id="header">
     <div id="linkhead">
-      <a href="/"><div class="lmain">Home</div></a>
+      <a href="/"><div class="lmain"></div></a>
       <div id="top_menu">
-        <a href="/<?=  drupal_get_path_alias('taxonomy/term/2', $language->language);?>"><div class="l"></div></a>
-        <a href="/<?=  drupal_get_path_alias('taxonomy/term/3', $language->language);?>"><div class="i"></div></a>
-        <a href="/<?=  drupal_get_path_alias('taxonomy/term/1', $language->language);?>"><div class="s"></div></a>
-        <a href="/<?=  drupal_get_path_alias('taxonomy/term/4', $language->language);?>"><div class="a"></div></a>
-        <a href="/<?=  drupal_get_path_alias('taxonomy/term/5', $language->language);?>"><div class="v"></div></a>
+        <a href="<?=  drupal_get_path_alias('taxonomy/term/2', $language->language);?>"><div class="l"></div></a>
+        <a href="<?=  drupal_get_path_alias('taxonomy/term/3', $language->language);?>"><div class="i"></div></a>
+        <a href="<?=  drupal_get_path_alias('taxonomy/term/1', $language->language);?>"><div class="s"></div></a>
+        <a href="<?=  drupal_get_path_alias('taxonomy/term/4', $language->language);?>"><div class="a"></div></a>
+        <a href="<?=  drupal_get_path_alias('taxonomy/term/5', $language->language);?>"><div class="v"></div></a>
         <a href="mailto:lizaveta.exe@gmail.com"><div class="e"></div></a>
-        <a href="/<?=  drupal_get_path_alias('taxonomy/term/6', $language->language);?>"><div class="t"></div></a>
-        <a href="/<?=  drupal_get_path_alias('node/7', $language->language);?>"><div class="a2"></div></a>
+        <a href="<?=  drupal_get_path_alias('taxonomy/term/6', $language->language);?>"><div class="t"></div></a>
+        <a href="<?=  drupal_get_path_alias('node/7', $language->language);?>"><div class="a2"></div></a>
       </div>
       <a href="/"><div id="twitter_link"></div></a>
     </div>
   </div>
+  <div id="header_bottom"></div>
 
 
   <div id="page">
@@ -59,3 +59,4 @@
     </div>
   </div>
 </div>
+

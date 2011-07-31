@@ -1072,52 +1072,52 @@ del {
     margin:226px 0 0 40px;
     float:left;
 }
-#linkhead .lmenu {
+#linkhead #top_menu {
     width:715px;
     height:123px;
     float:left;
-    margin: 189px 0 0 52px;
+    margin: 190px 0 0 325px;
 }
-#linkhead .lmenu .l {
+#linkhead #top_menu .l {
     width:80px;
     height:123px;
     float:left;
 }
-#linkhead .lmenu .i {
+#linkhead #top_menu .i {
     width:44px;
     height:123px;
     float:left;
     margin-left:10px;
 }
-#linkhead .lmenu .s {
+#linkhead #top_menu .s {
     width:88px;
     height:123px;
     float:left;
     margin-left:3px;
 }
-#linkhead .lmenu .a {
+#linkhead #top_menu .a {
     width:90px;
     height:123px;
     float:left;
 }
-#linkhead .lmenu .v {
+#linkhead #top_menu .v {
     width:110px;
     height:123px;
     float:left;
 }
-#linkhead .lmenu .e {
+#linkhead #top_menu .e {
     width:87px;
     height:123px;
     float:left;
     margin-left:8px;
 }
-#linkhead .lmenu .t {
+#linkhead #top_menu .t {
     width:90px;
     height:123px;
     float:left;
     margin-left:6px;
 }
-#linkhead .lmenu .a2 {
+#linkhead #top_menu .a2 {
     width:99px;
     height:123px;
     float:left;
@@ -1231,4 +1231,82 @@ h1 {
     height:24px;
     background-image: url(../images/finfo_t.png);
     margin-left:382px;
+}
+
+#second-main #header {
+    height: 244px;
+    background-image: url(../images/top_second.png);
+    background-position: center;
+}
+
+#linkhead .lmain {
+    width: 37px;
+    height: 15px;
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+#second-main  #linkhead #top_menu {
+    width: 1072px;
+    height: 197px;
+    float: left;
+    margin: 0px 0 0 70px;
+}
+
+#second-main  #linkhead #top_menu .l {
+    width: 109px;
+    height: 150px;
+    float: left;
+}
+
+#second-main #linkhead #top_menu .i {
+    width: 122px;
+    height: 97px;
+    float: left;
+    margin-left: 39px;
+}
+
+#second-main #linkhead #top_menu .s {
+    width: 88px;
+    height: 103px;
+    float: left;
+    margin-left: 53px;
+}
+
+#second-main #linkhead #top_menu .a {
+    width: 135px;
+    height: 71px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 73px;
+}
+
+#second-main #linkhead #top_menu .v {
+    width: 110px;
+    height: 104px;
+    float: left;
+    margin-left: 19px;
+}
+
+#second-main #linkhead #top_menu .e {
+    width: 132px;
+    height: 65px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 128px;
+}
+
+#second-main #linkhead #top_menu .t {
+    width: 196px;
+    height: 123px;
+    float: left;
+    margin-left: -54px;
+}
+
+#second-main #linkhead #top_menu .a2 {
+    width: 99px;
+    height: 86px;
+    float: left;
+    margin-left: 136px;
+    margin-top: -44px;
 }
